@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "skipDefaultLibCheck": true,
+      "checkJs": false,
+      "module": "commonjs",
+      "target": "es2019",
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "outDir": "./www",
+      "baseUrl": "/",
+      "paths": {
+          "*": ["node_modules/*"]
+      }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
